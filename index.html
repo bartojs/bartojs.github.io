@@ -1,5 +1,11 @@
 <html>
 <body>
 		Hello world!
+<div id="time"></div>	
+	<script>
+		setInterval(function(){
+		    document.querySelector('#time').innerText = (new Date()).toString();
+		}, 3000);
+	</script>
 </body>
 </html>
